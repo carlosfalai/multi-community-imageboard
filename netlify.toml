@@ -1,0 +1,21 @@
+# Netlify configuration file
+[build]
+  base = "frontend"
+  publish = "build"
+  command = "npm run build"
+
+# Environment variables
+[build.environment]
+  REACT_APP_API_URL = "https://multi-community-imageboard-api.netlify.app"
+
+# Redirects and rewrites
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
