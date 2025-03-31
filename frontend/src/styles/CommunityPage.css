@@ -1,0 +1,101 @@
+.community-header {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.community-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.community-title {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.community-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+}
+
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-tab {
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.category-tab:hover {
+  background-color: #e0e0e0;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.threads-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.threads-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.placeholder-text {
+  color: #888;
+  font-style: italic;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.error-message {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.error-message h2 {
+  margin-bottom: 10px;
+  color: #d32f2f;
+}
+
+.error-message a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.error-message a:hover {
+  text-decoration: underline;
+}

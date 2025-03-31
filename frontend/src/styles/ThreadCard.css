@@ -1,0 +1,140 @@
+.thread-card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.thread-video, .thread-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.thread-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thread-content {
+  padding: 15px;
+}
+
+.thread-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.thread-excerpt {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.thread-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: #888;
+}
+
+.thread-date {
+  font-style: italic;
+}
+
+.thread-stats {
+  display: flex;
+  gap: 10px;
+}
+
+.thread-upvotes {
+  color: #4caf50;
+}
+
+.thread-downvotes {
+  color: #f44336;
+}
+
+.category-tab.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.new-thread-button {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.new-thread-button:hover {
+  background-color: #1976d2;
+}
+
+.age-verification {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.age-verification-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+.age-verification-content h2 {
+  margin-bottom: 20px;
+  color: #d32f2f;
+}
+
+.age-verification-content p {
+  margin-bottom: 20px;
+}
+
+.age-verification-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.age-verification-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.age-verification-button.yes {
+  background-color: #4caf50;
+  color: white;
+}
+
+.age-verification-button.no {
+  background-color: #f44336;
+  color: white;
+}
